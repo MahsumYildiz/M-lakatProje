@@ -1,0 +1,333 @@
+[
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "AlbumEkle",
+    "RelativePath": "api/Music/album-ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yeniAlbum",
+        "Type": "M\u00FClakatProje.Models.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "AlbumGuncelle",
+    "RelativePath": "api/Music/album-guncelle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guncellenmisAlbum",
+        "Type": "M\u00FClakatProje.Models.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "AlbumListele",
+    "RelativePath": "api/Music/album-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "AlbumSil",
+    "RelativePath": "api/Music/album-sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiEkle",
+    "RelativePath": "api/Music/calmalistesi-ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yeniCalmaListesi",
+        "Type": "M\u00FClakatProje.Models.CalmaListesi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiGuncelle",
+    "RelativePath": "api/Music/calmalistesi-guncelle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guncellenmisCalmaListesi",
+        "Type": "M\u00FClakatProje.Models.CalmaListesi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiListele",
+    "RelativePath": "api/Music/calmalistesi-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiSil",
+    "RelativePath": "api/Music/calmalistesi-sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiSarkisiEkle",
+    "RelativePath": "api/Music/calmalistesisarkisi-ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yeniCalmaListesiSarkisi",
+        "Type": "M\u00FClakatProje.Models.CalmaListesiSarkilari",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiSarkisiGuncelle",
+    "RelativePath": "api/Music/calmalistesisarkisi-guncelle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guncellenmisCalmaListesiSarkisi",
+        "Type": "M\u00FClakatProje.Models.CalmaListesiSarkilari",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiSarkisiListele",
+    "RelativePath": "api/Music/calmalistesisarkisi-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "CalmaListesiSarkisiSil",
+    "RelativePath": "api/Music/calmalistesisarkisi-sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SanatciEkle",
+    "RelativePath": "api/Music/sanatci-ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yeniSanatci",
+        "Type": "M\u00FClakatProje.Models.Sanatci",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SanatciEkle",
+    "RelativePath": "api/Music/sanatci-ekle2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "albumAdet",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SanatciGuncelle",
+    "RelativePath": "api/Music/sanatci-guncelle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guncellenmisSanatci",
+        "Type": "M\u00FClakatProje.Models.Sanatci",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SanatciListele",
+    "RelativePath": "api/Music/sanatci-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SanatciSil",
+    "RelativePath": "api/Music/sanatci-sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SarkiEkle",
+    "RelativePath": "api/Music/sarki-ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yeniSarki",
+        "Type": "M\u00FClakatProje.Models.Sarki",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SarkiGuncelle",
+    "RelativePath": "api/Music/sarki-guncelle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guncellenmisSarki",
+        "Type": "M\u00FClakatProje.Models.Sarki",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SarkiListele",
+    "RelativePath": "api/Music/sarki-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "M\u00FClakatProje.Controllers.MusicController",
+    "Method": "SarkiSil",
+    "RelativePath": "api/Music/sarki-sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
